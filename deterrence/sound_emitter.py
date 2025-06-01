@@ -3,7 +3,7 @@ import threading
 
 def play_alert():
     try:
-        playsound('alert.mp3')  # Place alert.mp3 in project root
+        playsound('alert.mp3')  # Make sure alert.mp3 is in project root
     except Exception as e:
         print(f"[!] Error playing sound: {e}")
 
