@@ -17,6 +17,8 @@
 ---
 
 ## 📁 Project Structure
+
+```
 DroneShieldTap/
 ├── detection/
 │   └── wifi_scanner.py        # Wi-Fi sniffing for drone MACs
@@ -30,4 +32,4 @@ DroneShieldTap/
 ├── requirements.txt           # Python dependencies
 ├── README.md                  # Project overview
 └── LICENSE                    # MIT License
-
+```
