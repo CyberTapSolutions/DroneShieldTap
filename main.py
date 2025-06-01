@@ -1,13 +1,27 @@
 import os
 
+def print_banner():
+    banner = r"""
+ ____                         ____  _     _      _     _ 
+|  _ \ _ __ ___  _ __   ___  / ___|| |__ (_) ___| | __| |
+| | | | '__/ _ \| '_ \ / _ \ \___ \| '_ \| |/ _ \ |/ _` |
+| |_| | | | (_) | | | |  __/  ___) | | | | |  __/ | (_| |
+|____/|_|  \___/|_| |_|\___| |____/|_| |_|_|\___|_|\__,_|
+                                                       
+                 🛰️ DRONES – Cyber Detection Toolkit
+    ─────────────────────────────────────────────────────
+    """
+    print(banner)
+
 def print_menu():
-    print("\n🔧 DroneShieldTap Toolkit Menu")
+    print("🔧 DroneShieldTap Toolkit Menu")
     print("1. Start Wi-Fi Drone Scanner")
     print("2. Play Sound Alert (Test)")
     print("3. Flash Light Alert (Test)")
     print("4. Exit")
 
 def main():
+    print_banner()
     while True:
         print_menu()
         choice = input("Choose an option: ")

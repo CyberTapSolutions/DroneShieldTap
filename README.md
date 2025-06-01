@@ -17,4 +17,17 @@
 ---
 
 ## 📁 Project Structure
+DroneShieldTap/
+├── detection/
+│   └── wifi_scanner.py        # Wi-Fi sniffing for drone MACs
+├── deterrence/
+│   ├── light_alert.py         # Flash screen/terminal alert
+│   ├── sound_emitter.py       # Play alert sound
+│   └── notifier.py            # Placeholder for future alerts (email/Discord)
+├── utils/
+│   └── logger.py              # Logs drone detections
+├── main.py                    # Main menu launcher
+├── requirements.txt           # Python dependencies
+├── README.md                  # Project overview
+└── LICENSE                    # MIT License
 
